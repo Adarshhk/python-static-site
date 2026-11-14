@@ -333,6 +333,6 @@ def generate_pages_recursive(dir_path_content, template_path, dest_dir_path, bas
                     
                 
             else:
-                generate_pages_recursive(f"{dir_path_content}/{item}", template_path , f"{dest_dir_path}/{item}")
+                generate_pages_recursive(f"{dir_path_content}/{item}", template_path , f"{dest_dir_path}/{item}" , basePath)
 
 
